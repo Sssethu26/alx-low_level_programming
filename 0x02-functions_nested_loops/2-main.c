@@ -3,6 +3,7 @@
  * main - Check the code
  * Return: success 0.
  */
+
 int main(void)
 {
 	print_alphabet_x10();
