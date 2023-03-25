@@ -4,7 +4,7 @@
  * main - Prints a Fizz Buzz program
  * return: Always 0 (success)
  */
-int main(void)
+int print_numbers(void)
 {
 	int x;															for (x = 1; x <= 100; x++)
 	{
