@@ -3,7 +3,7 @@
  * _strcpy - function that copies the string pointed
  * @dest: Destionation value
  * @src: Source value
- * Reurn: string
+ * Return: string
  */
 char *_strcpy(char *dest, char *src)
 {
