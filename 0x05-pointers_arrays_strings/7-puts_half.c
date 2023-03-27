@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * putd_half - prints half of a string
  * @str: The string to print

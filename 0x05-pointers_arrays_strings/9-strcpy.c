@@ -3,16 +3,21 @@
  * _strcpy - function that copies the string pointed
  * @dest: Destionation value
  * @src: Source value
- * Reurn: The pointer to dest
+ * Reurn: string
  */
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int i = 0;
+	int j = 0;
 
-	for (i = 0; src[i] != '\0'; i++)
+	while (*(src + i) != '\0')
+	{
+		i++;
+	}
+	for (; j < i; i++)
 	{
 	dest[i] = src[i];
 	}
-	dest[i++] = '\0';
+	dest[j++] = '\0';
 	return (dest);
 }
