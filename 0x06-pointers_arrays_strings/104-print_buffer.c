@@ -23,12 +23,12 @@ void print_buffer(char *b, int size)
 		for (i = 0; i < 10; i++)
 		{
 			if (i < j)
-			printf("%02x", *(b + o + i));
+				printf("%02x", *(b + o + i));
 			else
-			printf(" ");
+				printf(" ");
 			if (i % 2)
 			{
-			printf(" ");
+				printf(" ");
 			}
 		}
 		for (i = 0; i < j; i++)
